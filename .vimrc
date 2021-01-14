@@ -17,8 +17,8 @@ call plug#begin('~/.vim/plugged')
 " Nerd Tree 树状文件
 Plug 'scrooloose/nerdtree'
 
-" 代码自动补全
-" Plug 'zxqfl/tabnine-vim'
+" coc.nvim
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "============== 结束 vim-plug ==============
 call plug#end()
