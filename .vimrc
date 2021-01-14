@@ -1,5 +1,5 @@
 " 设置 tab 为 2 个空格
-set ts=4
+set ts=2
 set expandtab
 set autoindent
 
