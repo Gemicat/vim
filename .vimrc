@@ -1,5 +1,7 @@
 " 设置 tab 为 2 个空格
 set ts=2 sw=2
+set expandtab
+set autoindent
 
 "============== 加载 vim-plug ==============
 if empty(glob("~/.vim/autoload/plug.vim"))
