@@ -3,6 +3,9 @@ set ts=2
 set expandtab
 set autoindent
 
+" 显示行号
+set number
+
 "============== 加载 vim-plug ==============
 if empty(glob("~/.vim/autoload/plug.vim"))
 execute '!curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
