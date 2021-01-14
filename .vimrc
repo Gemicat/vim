@@ -10,7 +10,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 
 " 代码自动补全
-Plug 'zxqfl/tabnine-vim'
+" Plug 'zxqfl/tabnine-vim'
 
 "============== 结束 vim-plug ==============
 call plug#end()
