@@ -19,13 +19,21 @@ set autoindent
 set number
 
 " 让光标所在的行高亮
-" set cursorline
+set cursorline
 
 " 显示不可见字符
-" set list
+set list
 
 " 用特定的符号替换看不见的字符，比如tab， 空格
-" set listchars=tab:▸\ ,trail:▫
+set listchars=tab:▸\ ,trail:▫
+
+"============== coc 配置 ==============
+
+" 加载插件
+let g:coc_global_extensions = ['coc-json','coc-css','coc-eslint','coc-git','coc-html','coc-flow', 'coc-tsserver']
+
+"============== coc 配置 ==============
+
 
 "============== 加载 vim-plug ==============
 if empty(glob("~/.vim/autoload/plug.vim"))
