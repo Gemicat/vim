@@ -18,15 +18,8 @@ set autoindent
 " 显示行号
 set number
 
-" 自动语法高亮
-" syntax on
-" set re=1
-" set lazyredraw
-" set synmaxcol=128
-" syntax sync minlines=256
-
 " 让光标所在的行高亮
-set cursorline
+" set cursorline
 
 " 显示不可见字符
 " set list
