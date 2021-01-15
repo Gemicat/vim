@@ -19,7 +19,7 @@ set autoindent
 set number
 
 " 自动语法高亮
-syntax enbale
+syntax on
 set re=1
 set lazyredraw
 set synmaxcol=128
