@@ -49,6 +49,9 @@ Plug 'scrooloose/nerdtree'
 " coc.nvim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" 底部状态栏
+Plug 'vim-airline/vim-airline'
+
 "============== 结束 vim-plug ==============
 call plug#end()
 "============== 结束 vim-plug ==============
