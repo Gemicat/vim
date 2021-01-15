@@ -25,7 +25,7 @@ set number
 " set list
 
 " 用特定的符号替换看不见的字符，比如tab， 空格
-set listchars=tab:▸\ ,trail:▫
+" set listchars=tab:▸\ ,trail:▫
 
 "============== 加载 vim-plug ==============
 if empty(glob("~/.vim/autoload/plug.vim"))
