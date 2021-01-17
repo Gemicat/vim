@@ -52,6 +52,12 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " 底部状态栏
 Plug 'vim-airline/vim-airline'
 
+" jsdoc 插件
+Plug 'heavenshell/vim-jsdoc', { 
+  \ 'for': ['javascript', 'javascript.jsx','typescript'], 
+  \ 'do': 'make install'
+\}
+
 "============== 结束 vim-plug ==============
 call plug#end()
 "============== 结束 vim-plug ==============
