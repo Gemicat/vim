@@ -27,6 +27,9 @@ set list
 " 用特定的符号替换看不见的字符，比如tab， 空格
 set listchars=tab:▸\ ,trail:▫
 
+" 不知道有啥用!!
+set synmaxcol=200
+
 "============== coc 配置 ==============
 
 " 加载插件
