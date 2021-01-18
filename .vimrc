@@ -32,6 +32,12 @@ set listchars=tab:▸\ ,trail:▫
 " 加载插件
 let g:coc_global_extensions = ['coc-json','coc-css','coc-eslint','coc-git','coc-html','coc-flow', 'coc-tsserver']
 
+" GoTo code navigation.
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
 "============== coc 配置 ==============
 
 
