@@ -27,6 +27,7 @@ set list
 " 用特定的符号替换看不见的字符，比如tab， 空格
 set listchars=tab:▸\ ,trail:▫
 
+" 设置默认正则引擎，有时在打开 .ts 文件滑动会卡死，设置这个就好了
 set regexpengine=2
 
 "============== coc 配置 ==============
