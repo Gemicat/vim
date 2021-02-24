@@ -30,6 +30,14 @@ set listchars=tab:▸\ ,trail:▫
 " 设置默认正则引擎，有时在打开 .ts 文件滑动会卡死，设置这个就好了
 set regexpengine=2
 
+"============== 快捷键映射 ==============
+
+" tab 打开 NERDTree
+nnoremap <silent> <tab> :NERDTree<CR>
+
+"============== 快捷键映射 ==============
+
+
 "============== coc 配置 ==============
 
 " 加载插件
